@@ -1,3 +1,5 @@
+import'../node_modules/bulma/css/bulma.css';
+
 import Person from './person';
 
 class Friend extends Person{
