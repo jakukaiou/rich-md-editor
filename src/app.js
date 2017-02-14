@@ -9,6 +9,6 @@ class Friend extends Person{
     }
 }
 
-var friend = new Friend('Musashi');
+var friend = new Friend('Musashi.Miyamoto');
 
 friend.callName();
