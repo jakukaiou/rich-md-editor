@@ -1,3 +1,3 @@
 # rich-md-editor
 
-marked.js,
+vue.js,marked.js,

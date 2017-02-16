@@ -4,22 +4,28 @@
   <meta charset="UTF-8">
 </head>
 <body>
-  Danger
-  <div class="block">
-    <a class="button">Button</a>
-    <a class="button is-white">White</a>
-    <a class="button is-light">Light</a>
-    <a class="button is-dark">Dark</a>
-    <a class="button is-black">Black</a>
-    <a class="button is-link">Link</a>
+<div class="rme-nav_area">
+  <div class="rme-nav_col">
+    <p class="control has-addons">
+      <input class="input" type="text" placeholder="タイトルを入力">
+      <a class="button is-info postbutton">
+          投稿
+      </a>
+    </p>
   </div>
-  <div class="block">
-    <a class="button is-primary">Primary</a>
-    <a class="button is-info">Info</a>
-    <a class="button is-success">Success</a>
-    <a class="button is-warning">Warning</a>
-    <a class="button is-danger">Danger</a>
+  <div class="rme-nav_col">
+      ここにエディットメニュー
   </div>
+</div>
+
+<div class="rme-editor_content">
+  <pre class="rme-editor_edit"><div class="rme-editor_edit_inner" contenteditable="true">edit!</div></pre>
+  <div class="rme-editor_render">
+  editのwidthを現在のブラウザ幅の1/2に設定
+  </div>
+</div>
+
+
   <script src="dist/js/bundle.js"></script>
 </body>
 </html>
